@@ -33,6 +33,7 @@ app.get('/help',(req,res)=>{
   res.render('help',{
     headerText:'Weather',
     title:'Help Page',
+	helpText: "Help Text populated from app",
     creator:'Navdeep Singh'
   });
 });
